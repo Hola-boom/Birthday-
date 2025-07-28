@@ -1,0 +1,226 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Love - Sahina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }body {
+  font-family: 'Quicksand', sans-serif;
+  background: radial-gradient(circle at top, #1e002d, #000);
+  overflow-x: hidden;
+  color: #fff;
+}
+
+.aurora {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url('https://i.ibb.co/HC5ZPgD/aurora.gif') center/cover no-repeat;
+  opacity: 0.2;
+  z-index: -2;
+}
+
+.sparkle {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url('https://i.ibb.co/LzY6Dpq/sparkle.gif') center/cover repeat;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  color: #ff96d6;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 5px #000;
+  text-align: center;
+}
+
+.card {
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 30px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 25px rgba(255, 150, 214, 0.3);
+}
+
+.card p {
+  font-size: 1.15em;
+  line-height: 1.9;
+  color: #ffd6f0;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+.floating-messages {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.5em;
+  color: #ffbde0;
+  background: rgba(0,0,0,0.4);
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #ff96d6aa;
+  animation: floatUp 5s ease-in-out infinite;
+}
+
+@keyframes floatUp {
+  0% {opacity: 0; transform: translate(-50%, 20px);}
+  20% {opacity: 1; transform: translate(-50%, 0);}
+  80% {opacity: 1; transform: translate(-50%, 0);}
+  100% {opacity: 0; transform: translate(-50%, -20px);}
+}
+
+.gallery-button {
+  margin-top: 40px;
+  padding: 12px 25px;
+  font-size: 1em;
+  border: none;
+  border-radius: 30px;
+  background: #ff96d6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff96d6aa;
+  transition: background 0.3s ease;
+}
+
+.gallery-button:hover {
+  background: #ff73c2;
+}
+
+.gallery {
+  display: none;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.gallery img {
+  height: 200px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  h1 { font-size: 2.2em; }
+  .card p { font-size: 1em; }
+}
+
+  </style>
+</head>
+<body>
+  <div class="aurora"></div>
+  <div class="sparkle"></div>  <div class="container">
+    <h1>🎉💖 Happy Birthday, Amar Jaan 💖🎉</h1>
+    <div class="card">
+      <p>
+        Aaj tomar jonmodin, but honestly, amar jonne protidin tomar sathe thaka ta onek special ...<br><br>
+        Tumi sudhu amar girlfriend na, tumi amar shanti, amar bhalobasha, aar amar sob cheye boro gift… 🥹💞<br><br>
+        Tomar hasi dekhe din shuru hoy, aar tomar kotha mone kore rat sesh hoy...<br>
+        Tumi chhara jibon ta onek faka lage — tumi na thakle ami puro incomplete. 🕊️<br><br>
+        Aaj tomar jonmodin e amar akmatro iccha holo —<br>
+        Tumi jano sobeomoy khushi thako, bhalo thako, aar amar sathe thako forever…<br>
+        Karor chokhe na poro, karo nazor na lage — karon tumi amar jiboner onek onek boro ekta part… ❤️<br><br>
+        Happy Birthday, sona…<br>
+        Toke bhalobashi kal theke beshi, aaj theke kom na…<br>
+        Ektu beshi roddur holey tomar chaya hobo,<br>
+        Ektu beshi brishti hole tomar chata hobo…<br>
+        Kintu jibon er protita muhurte tomar pasa thakbo ami… shudhu tomar jonno. 💌<br><br>
+        — Tomar bhalobasai roye gelam, ekta chele je sudhu tokei bhalobase.<br> <br>
+        <br>
+        Ar oii nicher photo gulo valo kore dekhar jonno tap korbi ogulor upor...
+        <br> <br>
+        
+        Love You Madam Ji ❤️...
+        
+      </p>
+      
+      <button class="gallery-button" onclick="toggleGallery()">📸 View Our Memories</button>
+      <div class="gallery" id="gallery">
+        <img src="https://i.postimg.cc/kMhnJJ62/IMG-20250728-WA0032.jpg?text=Photo+1" onclick="openLightbox(this.src)">
+        <img src="https://i.postimg.cc/gkXGrC8N/IMG-20250728-WA0018.jpg?text=Photo+2" onclick="openLightbox(this.src)">
+        <img src="https://i.postimg.cc/pdxvGy76/IMG-20250728-WA0025.jpg?text=Photo+3" onclick="openLightbox(this.src)">
+        <img src="https://i.postimg.cc/rFBM4f9c/IMG-20250728-WA0015.jpg?text=Photo+3" onclick="openLightbox(this.src)">
+        <img src="https://i.postimg.cc/4xpZQp8c/IMG-20250728-WA0016.jpg?text=Photo+3" onclick="openLightbox(this.src)">
+       <img src="https://i.postimg.cc/MZ1h4z0k/IMG-20250728-WA0037.jpg?text=Photo+3" onclick="openLightbox(this.src)">
+
+     </div>
+    </div>
+  </div>  <div class="floating-messages" id="float-msg">Toke bhalobashi 💖</div>
+  <div class="lightbox" id="lightbox" onclick="this.style.display='none'">
+    <img id="lightbox-img" src="" alt="">
+  </div>  <script>
+    const messages = [
+      'Toke bhalobashi 💖',
+      'Tumi amar shobkichu 🕊️',
+      'Happy Birthday Shona 🎂',
+      'Forever together 💌',
+      'You complete me ❤️'
+    ];
+    let i = 0;
+    setInterval(() => {
+      const msg = document.getElementById('float-msg');
+      msg.innerText = messages[i % messages.length];
+      i++;
+    }, 6000);
+
+    function toggleGallery() {
+      const gallery = document.getElementById('gallery');
+      gallery.style.display = gallery.style.display === 'flex' ? 'none' : 'flex';
+    }
+
+    function openLightbox(src) {
+      document.getElementById('lightbox-img').src = src;
+      document.getElementById('lightbox').style.display = 'flex';
+    }
+  </script></body>
+</html>
